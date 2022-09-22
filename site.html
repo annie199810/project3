@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="header">
+    <a href="#default" class="logo"><span>THOMAS</span>DIGITAL</a>
+    <div class="header-right">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Pricing</a>
+        <a href="#">Articles</a>
+        <a href="#" id="color">FREE MOCKUP</a>
+    </div>
+</div>
+
+<div style="padding-left:20px">
+    <div class="content">
+        <h1>100% Custom Design</h1>
+        <p>We never use pre-made templates.Ever.</p></div>
+</div>
+
+<div class="button">
+    <a href="#" class="button">ALL</a>
+    <a href="#" class="button">B2B</a>
+    <a href="#" class="button">BIO TECH</a>
+    <a href="#" class="button">CONSTRUCTION</a>
+    <a href="#" class="button">CONSULTING</a>
+    <a href="#" class="button">FINANCIAL SERVICES</a>
+    <a href="#" class="button">LEGAL</a>
+    <a href="#" class="button">MEDICAL</a>
+    <a href="#" class="button">NON PROFIT</a><br><br><br>
+    <a href="#" class="button">PRODUCT</a>
+    <a href="#" class="button">PROFESSIONAL SERVICE</a>
+    <a href="#" class="button">REAL ESTATE</a>
+    <a href="#" class="button">RECUIRMENT</a>
+    <a href="#" class="button">RESTAURANT</a>
+    <a href="#" class="button">SASS</a>
+    <a href="#" class="button">TECHNOLOGY</a>
+</div>
+
+<div class="flexcontainer">
+    <img id="myimg1" src="img16.jpg" alt="img1" width="500" height="400">
+    <img id="myimg2" src="img22.jpg" alt="img22" width="500" height="400">
+    <img id="myimg3" src="img25.jpg" alt="img3" width="500" height="400">
+    <img id="myimg4" src="img27.jpg" alt="img4" width="500" height="400">
+    <img id="myimg5" src="img5.jpg"  alt="img5" width="500" height="400">
+    <img id="myimg6" src="img6.jpg"  alt="img6" width="500" height="400">
+    <img id="myimg7" src="img4.jpg"  alt="img7" width="500" height="400">
+    <img id="myimg8" src="img10.jpg" alt="img7" width="500" height="400">
+    <img id="myimg9" src="img88.jpg" alt="img7" width="500" height="400">
+</div>
+<div class="letter">
+    <p>LOAD MORE</P>
+</div>
+<div>
+<div class="star">
+            <h1 style="text-align:left;float:left;">Reviews</h1> 
+<h2 style="text-align:right;float:right;">50+ Five Stars Reviews on Google</h2></div>
+<br><br><br>
+<div class="slideshow">
+            <div class="slideshow-container">
+
+                <div class="mySlides">
+                  <q>You may find positive customer reviews anywhere – on your website, on Google reviews page, Yelp, and on many other review sites. And believe me, you want tons of them because they help your business in many ways – from boosting your online reputation as a local business to increasing SEO ranking.</q>
+                  <p class="author">- John Keats</p>
+                </div>
+                
+                <div class="mySlides">
+                  <q>Getting good customer reviews shows not only you but also to your potential customers the great customer experience you offer. New customers will feel more comfortable trusting your brand and making a purchase after seeing great reviews instead of negative experiences.</q>
+                  <p class="author">- Ernest Hemingway</p>
+                </div>
+                
+                <div class="mySlides">
+                  <q>A good customer review is like a digital scrapbook with pictures and memories that your customers took of their experience. It tells you what made them happy – from the product’s benefits, pricing options, or detailed guidance from specific employees on how to use it correctly..</q>
+                  <p class="author">- Thomas A. Edison</p>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+        </div>
+
+        <div class="side">
+          <p>TESTIMONALS</p>
+      </div>
+
+      <footer>
+      <div class="container">
+        <p>How Can We Help?</p>
+      </div><br><br>
+
+       <div class="footer">
+        <h3>SITEMAP</h3><hr>
+        <div class="data">
+          <div class="datarow">
+        <a href="#">Portfolio</a><br>
+        <a href="#">Pricing</a><br>
+        <a href="#">Services</a><br>
+        <a href="#">Reviews</a><br>
+        <a href="#">About</a><br>
+        <a href="#">Are we a fit?</a><br>
+        <a href="#">Our Process</a><br>
+        <a href="#">Articles</a><br>
+        <a href="#">Free Mockup</a><br>
+        <a href="#">Locations</a><br><br><br><br>
+    </div>
+    <div class="datarow">
+      <a href="#">Bad websites</a><br>
+      <a href="#">Pricing</a><br>
+      <a href="#">Services</a><br>
+      <a href="#">Reviews</a><br>
+      <a href="#">About</a><br>
+      <a href="#">Are we a fit?</a><br>
+      <a href="#">Our Process</a><br>
+      <a href="#">Articles</a><br>
+      <a href="#">Free Mockup</a><br>
+      <a href="#">Locations</a><br>
+      
+          </div>
+          <div class="datarow">
+            <a href="#">Web Design Boston</a><br>
+            <a href="#">Web Design Denver</a><br>
+            <a href="#">Web Design Los Angels</a><br>
+            <a href="#">Web Design New York</a><br>
+            <a href="#">Web Design Portland</a><br>
+            <a href="#">Web Design london</a><br>
+            <a href="#">Web Design Paris</a><br>
+            <a href="#">Web Design Brazil</a><br>
+            <a href="#">Web Design Seattle</a><br>
+            </div>
+        </div>
+        <hr>
+        <div class="foot">
+          <a href="#default" class="logo"><span>THOMAS</span>DIGITAL</a>
+        <a href="#" id="cen">Five Star Reviews in Google</a>
+        <a href="#" id="lan">On Page 1 Page Google for</a>
+         </div><hr>
+         <div class="last">
+          <a href="#"><span>@Copyright2022. All rights Reserved</span>Terms Of Services<span>|</span></a>
+          <a href="#">Privacy policy</a>
+         </div>
+
+        </footer>
+</body>
+</html>
+
+
+
